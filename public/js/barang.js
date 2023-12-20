@@ -38,7 +38,7 @@ $(document).on("click", ".btnSave", function(){
             console.log(respond);
         },
         error:function(){
-            alert("Terjadi Kesalahan");
+            alert("Terjadi Kesalahan!");
         }
     })
 })
