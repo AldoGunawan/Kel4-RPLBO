@@ -53,17 +53,9 @@
                                                 id="exampleInputPassword" placeholder="Password" name="password">
                                         </div>
                                         <button type="submit" class="btn btn-primary btn-user btn-block">Login</button>
-                                        
                                         <hr>
                                         
                                     </form>
-                                    <hr>
-                                    <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Forgot Password?</a>
-                                    </div>
-                                    <div class="text-center">
-                                        <a class="small" href="register.html">Create an Account!</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -89,16 +81,3 @@
 </body>
 
 </html>
-
-
-
-<form method="POST" action="{{ route('custom.login') }}">
-    @csrf
-    <label for="name">Name :</label><br>
-    <input type="name" id="name" name="name" placeholder="Your name" required><br><br>
-    
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password" placeholder="Your password" required><br><br>
-    
-    <button type="submit">Login</button>
-</form>
